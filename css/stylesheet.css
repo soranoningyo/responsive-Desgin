@@ -1,0 +1,101 @@
+/* global */
+*
+{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    text-transform: capitalize;
+}
+@media (max-width:767px) {
+    
+}
+@media (min-width:768px) {
+    .container
+    {
+        width: 768px
+    }
+}
+@media (min-width:992px) {
+    .container
+    {
+        width: 992px
+    }
+}
+@media (min-width:1200px) {
+    .container
+    {
+    width: 1200px;
+    }
+}
+/* global */
+/* header */
+header
+{
+    background-image: url(../images/sai-kiran-anagani-61187-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: white;
+    text-align: center;
+
+}
+header .overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(83, 83, 209, 0.1);
+}
+header h1
+{
+    padding-bottom: 50px;
+    margin: 0;
+}
+header .thplans
+{
+    padding: 15px;
+    border: 3px solid #fff;
+    width: 48%;
+    float: left;
+    color: #fff;
+    margin: 0 1%;
+    font-size: 25px
+}
+header .thplans:hover
+{
+    background-color: rgba(83, 83, 209, 1);
+}
+@media (max-width:767px) {
+    header .thplans
+    {
+    float: none;
+    width: 96%;
+    margin: 0 2% 20px;
+    padding: 3%
+    }
+}
+@media (max-width:480px) {
+    header h1
+    {
+        font-size: 25px;
+    }
+    header p
+    {
+    font-size: 20px;
+    }
+}
+
+/* header */
+
+/* my framework */
+.container
+{
+    margin: auto;
+}
+.clearfix
+{
+    clear: both;
+}
+/* my framework */
