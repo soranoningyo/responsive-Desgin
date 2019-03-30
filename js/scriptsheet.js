@@ -48,3 +48,14 @@ $('header .hc .thplans').click(function () {
     $('#' + $(this).data('value')).addClass('active').siblings().removeClass('active');
 
 });
+ // Toggle Selected Mode & certain paragraph for certain li
+
+$('.tabs ul li').click(function () {
+
+    'use strict';
+
+    $(this).addClass('selected').siblings().removeClass('selected');
+
+    $('.tabs .preview p').hide();
+    $('.' + $(this).data('class')).fadeIn(1000);
+});

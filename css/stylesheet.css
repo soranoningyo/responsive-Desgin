@@ -1,8 +1,4 @@
 /* global */
-body
-{
-    height: 4000px;
-}
 *
 {
     box-sizing: border-box;
@@ -408,6 +404,90 @@ header .thplans:hover
     }
 }
 /* testimonial */
+/* tabs */
+.tabs
+{
+    padding: 30px 0 70px;
+    background-color: #eee;
+}
+.tabs h2
+{
+    margin-bottom: 20;
+    font-size:50px;
+    padding: 0 25px;
+    text-align: center;
+}
+.tabs ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.tabs ul li
+{
+    display: inline-block;
+    padding: 15px;
+    background-color: rgb(230, 230, 230);
+    color: rgb(39, 39, 39);
+    font-size: 25px;
+    cursor: pointer;
+}
+.tabs ul .selected
+{
+    background-color: #fff;
+    color: rgba(83, 83, 209, 1);
+    font-weight: bold;
+}
+.tabs .preview
+{
+    background-color: #fff;
+    padding: 15px;
+}
+.tabs .preview p 
+{
+    font-size: 30px;
+    margin: 0;
+    padding: 15px;
+    color: #424040
+}
+.tabs .preview > p:not(:first-of-type)
+{
+    display: none;
+}
+@media (max-width:767px) { /*mobile screen*/
+    .tabs ul li
+    {
+        display: block;
+    }
+}
+/* tabs */
+/* footer */
+footer
+{
+    background-color: rgb(46, 46, 46);
+    text-align: center;
+    display: flex;
+    min-height: 80px;
+    justify-content: center;
+    align-content: center;
+}
+footer p
+{
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    padding: 5px 30px;
+    line-height: 1.5
+}
+@media (max-width: 767px)
+{
+    footer p{
+
+        font-size: 20px;
+    }
+}
+/* footer */
 /* my framework */
 .container
 {
