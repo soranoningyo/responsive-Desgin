@@ -5,6 +5,7 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     text-transform: capitalize;
+    font-family: 'Nothing You Could Do', cursive;
 }
 @media (max-width:767px) {
     
@@ -52,16 +53,20 @@ header h1
 {
     padding-bottom: 50px;
     margin: 0;
+    font-size: 43px
 }
 header .thplans
 {
-    padding: 15px;
+    padding: 25px 15px;
     border: 3px solid #fff;
     width: 48%;
-    float: left;
     color: #fff;
     margin: 0 1%;
-    font-size: 25px
+}
+header .thplans p
+{
+    margin: 0;
+    font-size: 35px
 }
 header .thplans:hover
 {
@@ -83,16 +88,56 @@ header .thplans:hover
     }
     header p
     {
-    font-size: 20px;
+    font-size: 28px;
     }
 }
 
 /* header */
+/* features */
+.features .feat
+{
+    width: 33%;
+    padding: 10px;
+    padding-left: 20px
+}
+.features .feat h3
+{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.features .feat p
+{
+    padding-left:10px; 
+    margin-top: 0;
+    font-size: 30px;
+}
+@media (max-width:767px) {
+    .features .feat
+    {
+        width: 100%;
+        text-align: center;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+    .features .feat:first-of-type
+    {
+        width: 100%;
+    }
+    .features .feat:not(:first-of-type)
+    {
+        width: 50%;
+    }
+}
+/* features */
 
 /* my framework */
 .container
 {
     margin: auto;
+}
+.floating
+{
+    float: left;
 }
 .clearfix
 {
