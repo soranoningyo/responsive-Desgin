@@ -257,6 +257,11 @@ header .thplans:hover
     font-size: 30px;
     margin-top: 5px;
 }
+    .price .plan.active
+    {
+        background-color: rgba(83, 83, 209, 1);
+        transform: scale(1.05);
+    }
 @media (max-width:767px) { /*mobile screen*/
     .price .plan
     {
@@ -284,11 +289,6 @@ header .thplans:hover
     .price .plan:nth-of-type(3)
     {
         margin-right: 0;
-    }
-    .price .plan.active
-    {
-        background-color: rgba(83, 83, 209, 1);
-        transform: scale(1.05);
     }
     .price .plan.active h4
     {
